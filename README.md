@@ -8,7 +8,9 @@ https://github.com/termux/termux-float
 
 
 https://github.com/Lzhiyong/termux-ndk
-You must align the project signature with UTermux or termux in order to use it
+
+
+# You must align the project signature with UTermux or termux in order to use it
 # 中文
 
 # 功能:
@@ -22,4 +24,5 @@ https://github.com/termux/termux-float
 
 https://github.com/Lzhiyong/termux-ndk
 
-你必须使得本项目的签名与UTermux或termux一致，才能使用 
+
+# 你必须使得本项目的签名与UTermux或termux一致，才能使用 
