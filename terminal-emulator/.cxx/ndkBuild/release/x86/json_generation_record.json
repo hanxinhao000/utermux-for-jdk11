@@ -1,0 +1,20 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file": "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027H:\\termux\\termux-float-master\\terminal-emulator\\.cxx\\ndkBuild\\release\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk",
+    "tag": "release|x86"
+  }
+]

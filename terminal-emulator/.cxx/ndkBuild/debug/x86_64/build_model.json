@@ -1,0 +1,137 @@
+{
+  "abi": "X86_64",
+  "abiPlatformVersion": 21,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\.cxx\\ndkBuild\\debug\\x86_64",
+  "info": {
+    "abi": "X86_64",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\.cxx\\ndkBuild\\debug\\x86_64",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "cFlagsList": [
+      "-std\u003dc11",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Os",
+      "-fno-stack-protector",
+      "-Wl,--gc-sections"
+    ],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "NDK_BUILD",
+      "cmakeToolchainFile": "D:\\AndroidSDK\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\.cxx",
+      "gradleModulePathName": ":terminal-emulator",
+      "intermediatesFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates",
+      "makeFile": "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk",
+      "moduleBuildFile": "H:\\termux\\termux-float-master\\terminal-emulator\\build.gradle",
+      "moduleRootFolder": "H:\\termux\\termux-float-master\\terminal-emulator",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "D:\\AndroidSDK\\ndk\\21.3.6528147",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "21.3.6528147",
+      "project": {
+        "compilerSettingsCacheFolder": "H:\\termux\\termux-float-master\\.cxx",
+        "cxxFolder": "H:\\termux\\termux-float-master\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "H:\\termux\\termux-float-master",
+        "sdkFolder": "D:\\AndroidSDK",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "D:\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "H:\\termux\\termux-float-master\\terminal-emulator\\.cxx\\ndkBuild\\debug\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "H:\\termux\\termux-float-master\\terminal-emulator\\.cxx\\ndkBuild\\debug\\prefab\\x86_64"
+}

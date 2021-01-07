@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+tar xvJf openjdk-11.0.1.tar.xz
+
+
+rm openjdk-11.0.1.tar.xz
+
+echo "解压完成,标识码:F56D32FEF35RHT5IF2VB2X1"

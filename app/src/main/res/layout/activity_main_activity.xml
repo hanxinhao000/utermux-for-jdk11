@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/purple_700"
+    android:layout_height="match_parent"
+    tools:context=".TermuxFloatActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/color_ffffff"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/使用本程序为Utermux安装jdk11"
+        android:textColor="@color/color_ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/loading"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ProgressBar
+                    android:layout_width="40dp"
+                    android:id="@+id/progress"
+                    android:layout_height="40dp"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/image"
+                    android:visibility="gone"
+                    android:src="@mipmap/wancheng"
+                    android:layout_height="40dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/正在安装"
+                android:textColor="@color/color_ffffff"
+                android:layout_marginTop="15dp"
+                android:id="@+id/loading_tv"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/getb_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="37.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="37.5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_login_btn_true"
+            android:gravity="center"
+            android:text="@string/安装jdk11"
+            android:textColor="@color/color_ffffff"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

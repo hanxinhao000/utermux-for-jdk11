@@ -1,0 +1,1 @@
+make: `D:/termux-app-master/terminal-emulator/build/intermediates/ndkBuild/release/obj/local/x86/libtermux.so' is up to date.

@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\termux-app-master\\terminal-emulator\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\termux-app-master\\terminal-emulator\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/termux-app-master/terminal-emulator/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\termux-app-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\debug\\lib APP_CFLAGS+\u003d-std\u003dc11 APP_CFLAGS+\u003d-Wall APP_CFLAGS+\u003d-Wextra APP_CFLAGS+\u003d-Werror APP_CFLAGS+\u003d-Os APP_CFLAGS+\u003d-fno-stack-protector APP_CFLAGS+\u003d-Wl,--gc-sections clean"
+  ],
+  "libraries": {
+    "termux-debug-x86": {
+      "buildCommand": "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\termux-app-master\\terminal-emulator\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/termux-app-master/terminal-emulator/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\termux-app-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\debug\\lib APP_CFLAGS+\u003d-std\u003dc11 APP_CFLAGS+\u003d-Wall APP_CFLAGS+\u003d-Wextra APP_CFLAGS+\u003d-Werror APP_CFLAGS+\u003d-Os APP_CFLAGS+\u003d-fno-stack-protector APP_CFLAGS+\u003d-Wl,--gc-sections D:/termux-app-master/terminal-emulator/build/intermediates/ndkBuild/debug/obj/local/x86/libtermux.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "termux",
+      "files": [
+        {
+          "src": "D:\\termux-app-master\\terminal-emulator\\src\\main\\jni\\termux.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AndroidSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/termux-app-master/terminal-emulator/src/main/jni -std\u003dc11 -Wall -Wextra -Werror -Os -fno-stack-protector -Wl,--gc-sections -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\termux-app-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libtermux.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\AndroidSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

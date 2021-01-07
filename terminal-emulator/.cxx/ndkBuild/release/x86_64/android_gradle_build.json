@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSDK\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dH:/termux/termux-float-master/terminal-emulator/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\release\\lib APP_CFLAGS+\u003d-std\u003dc11 APP_CFLAGS+\u003d-Wall APP_CFLAGS+\u003d-Wextra APP_CFLAGS+\u003d-Werror APP_CFLAGS+\u003d-Os APP_CFLAGS+\u003d-fno-stack-protector APP_CFLAGS+\u003d-Wl,--gc-sections clean"
+  ],
+  "buildTargetsCommand": "D:\\AndroidSDK\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dH:/termux/termux-float-master/terminal-emulator/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\release\\lib APP_CFLAGS+\u003d-std\u003dc11 APP_CFLAGS+\u003d-Wall APP_CFLAGS+\u003d-Wextra APP_CFLAGS+\u003d-Werror APP_CFLAGS+\u003d-Os APP_CFLAGS+\u003d-fno-stack-protector APP_CFLAGS+\u003d-Wl,--gc-sections {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "termux-release-x86_64": {
+      "buildCommand": "D:\\AndroidSDK\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dH:/termux/termux-float-master/terminal-emulator/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dH:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\release\\lib APP_CFLAGS+\u003d-std\u003dc11 APP_CFLAGS+\u003d-Wall APP_CFLAGS+\u003d-Wextra APP_CFLAGS+\u003d-Werror APP_CFLAGS+\u003d-Os APP_CFLAGS+\u003d-fno-stack-protector APP_CFLAGS+\u003d-Wl,--gc-sections H:/termux/termux-float-master/terminal-emulator/build/intermediates/ndkBuild/release/obj/local/x86_64/libtermux.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "termux",
+      "files": [
+        {
+          "src": "H:\\termux\\termux-float-master\\terminal-emulator\\src\\main\\jni\\termux.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/AndroidSDK/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IH:/termux/termux-float-master/terminal-emulator/src/main/jni -std\u003dc11 -Wall -Wextra -Werror -Os -fno-stack-protector -Wl,--gc-sections -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "H:\\termux\\termux-float-master\\terminal-emulator\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtermux.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "D:\\AndroidSDK\\ndk\\21.3.6528147\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
