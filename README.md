@@ -14,7 +14,11 @@ https://github.com/Lzhiyong/termux-ndk
 # 中文
 
 # 功能:
-在UTermux/termux中安装JDK11,jdk11安装包请在（https://github.com/Lzhiyong/termux-ndk/releases）下载，并改名为(openjdk11)放入项目目录:(\app\src\main\assets)文件夹下
+在UTermux/termux中安装JDK11,jdk11安装包请在
+
+https://github.com/Lzhiyong/termux-ndk/releases
+
+下载，并改名为(openjdk11)放入项目目录:(\app\src\main\assets)文件夹下
 
 
 # 根据以下项目改进的:
