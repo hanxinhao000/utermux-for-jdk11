@@ -1,28 +1,19 @@
-# Termux:Float
+# UTermuxForJDK11
 
-[![Build status](https://github.com/termux/termux-float/workflows/Build/badge.svg)](https://github.com/termux/termux-float/actions)
-[![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
+Function: in UTermux/termux JDK11 installation, JDK11 installation package (https://github.com/Lzhiyong/termux-ndk/releases), please download, and changed its name to the (openjdk11) into the project directory (\app\src\main\assets) folder
 
-A [Termux](https://termux.com/) add-on app to show the terminal in a floating
-terminal window.
+Improved according to the following items:
+https://github.com/termux/termux-float
+https://github.com/Lzhiyong/termux-ndk
+You must align the project signature with UTermux or termux in order to use it
+# 中文
 
-When developing (or packaging), note that this app needs to be signed with the
-same key as the main Termux app in order to have the permission to modify the
-required font or color files.
+功能:在UTermux/termux中安装JDK11,jdk11安装包请在（https://github.com/Lzhiyong/termux-ndk/releases）下载，并改名为(openjdk11)放入项目目录:(\app\src\main\assets)文件夹下
 
-## Installation
 
-Termux:Float application can be obtained from:
+根据以下项目改进的:
 
-- [Google Play](https://play.google.com/store/apps/details?id=com.termux.window)
-- [F-Droid](https://f-droid.org/en/packages/com.termux.window/)
-- [Kali Nethunter Store](https://store.nethunter.com/en/packages/com.termux.window/)
+https://github.com/termux/termux-float
+https://github.com/Lzhiyong/termux-ndk
 
-Additionally we provide per-commit debug builds for those who want to try
-out the latest features or test their pull request. This build can be obtained
-from one of the workflow runs listed on [Github Actions](https://github.com/termux/termux-float/actions)
-page.
-
-Signature keys of all offered builds are different. Before you switch the
-installation source, you will have to uninstall the Termux application and
-all currently installed plugins.
+你必须使得本项目的签名与UTermux或termux一致，才能使用 
